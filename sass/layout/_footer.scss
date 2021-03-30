@@ -1,0 +1,38 @@
+.footer {
+  background-color: var(--background-dark-color);
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+  padding: 60px 15px;
+}
+
+.address {
+  margin-top: 20px;
+}
+
+.address-list-item:not(:first-child) {
+  margin-top: 9px;
+}
+
+.address-street {
+  color: var(--primary-white-color);
+}
+
+.address-contacts {
+  color: var(--adress-white-color);
+}
+
+.footer-container-right {
+  margin-left: 70px;
+}
+
+.join {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}

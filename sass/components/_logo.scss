@@ -1,0 +1,21 @@
+%logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-black {
+  @extend %logo;
+  color: var(--logo-black-color);
+  animation-duration: 2000ms;
+}
+
+.logo-white {
+  @extend %logo;
+  color: var(--primary-white-color);
+}
+.logo-web {
+  @extend %logo;
+  color: var(--accent-color);
+}
