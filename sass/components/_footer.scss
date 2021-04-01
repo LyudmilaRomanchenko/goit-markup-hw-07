@@ -8,31 +8,22 @@
   padding: 60px 15px;
 }
 
-.address {
+.footer-address {
   margin-top: 20px;
 }
 
-.address-list-item:not(:first-child) {
+.footer-address-list__item:not(:first-child) {
   margin-top: 9px;
 }
 
-.address-street {
+.footer-address-list__street {
   color: var(--primary-white-color);
 }
 
-.address-contacts {
+.footer-address-list__contacts {
   color: var(--adress-white-color);
 }
 
-.footer-container-right {
+.footer-join {
   margin-left: 70px;
-}
-
-.join {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--primary-white-color);
 }

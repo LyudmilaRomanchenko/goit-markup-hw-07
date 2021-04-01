@@ -8,21 +8,11 @@
   margin-top: 50px;
 }
 
-.activity-item {
+.activity-list__item {
   margin-left: var(--elements-gap);
   flex-basis: calc(100% / 3 - var(--elements-gap));
 
   position: relative;
-}
-
-.activity-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-align: center;
-  text-transform: uppercase;
-  color: var(--primary-white-color);
 }
 
 .activity-bacg {
@@ -37,4 +27,14 @@
   position: absolute;
   bottom: 0;
   pointer-events: none;
+}
+
+.activity-bacg__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
 }

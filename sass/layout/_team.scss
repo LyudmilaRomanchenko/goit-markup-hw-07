@@ -8,7 +8,7 @@
   margin-left: calc(-1 * var(--elements-gap));
 }
 
-.team-member {
+.team-list__member {
   margin-left: var(--elements-gap);
   flex-basis: calc(100% / 4 - var(--elements-gap));
 
@@ -18,14 +18,14 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-member-container {
+.team-member {
   padding-top: var(--elements-gap);
   padding-bottom: var(--elements-gap);
   padding-left: 32px;
   padding-right: 32px;
 }
 
-.team-member-name {
+.team-member__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -35,7 +35,7 @@
   color: var(--title-text-color);
 }
 
-.team-member-post {
+.team-member__post {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
